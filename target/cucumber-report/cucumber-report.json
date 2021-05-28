@@ -1,0 +1,79 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-28T08:30:05.078Z",
+        "line": 11,
+        "name": "Book the flight from Portland to Rome using Lufthansa Airlines",
+        "description": "",
+        "id": "book-the-flight;book-the-flight-from-portland-to-rome-using-lufthansa-airlines;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5416000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user selects the \"Portland\" and the \"Rome\" location using \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Portland",
+                  "offset": 18
+                },
+                {
+                  "val": "Rome",
+                  "offset": 37
+                },
+                {
+                  "val": "Chrome",
+                  "offset": 59
+                }
+              ],
+              "location": "com.org.team.app.stepdefinition.Travel.user_selects_the_something_and_the_something_location_using_something(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1724000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the details and chooses the flight",
+            "match": {
+              "location": "com.org.team.app.stepdefinition.Travel.user_enters_the_details_and_chooses_the_flight()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 975000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "order id should be generated",
+            "match": {
+              "location": "com.org.team.app.stepdefinition.Travel.order_id_should_be_generated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SystemTest"
+          }
+        ]
+      }
+    ],
+    "name": "Book the flight",
+    "description": "",
+    "id": "book-the-flight",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/travel.feature",
+    "tags": []
+  }
+]

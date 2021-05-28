@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.311">
+<testcase classname="Book the flight" name="Book the flight from Portland to Rome using Lufthansa Airlines" time="8.176">
+<system-out><![CDATA[Given user selects the "Portland" and the "Rome" location using "Chrome"....passed
+When user enters the details and chooses the flight.........................passed
+Then order id should be generated...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
